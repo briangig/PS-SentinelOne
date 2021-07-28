@@ -3,14 +3,8 @@ function Set-S1Notification {
     .SYNOPSIS
         Gets information related to policies in SentinelOne
     
-    .PARAMETER GroupID
-        Get policy settings by Group ID
-    
     .PARAMETER SiteID
         Get policy settings by Site ID
-
-    .PARAMETER AccountID
-        Get policy settings by Account ID
     #>
     [CmdletBinding()]
     Param(
