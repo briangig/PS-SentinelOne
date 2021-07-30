@@ -1,7 +1,7 @@
 function Create-S1Site {
     <#
     .SYNOPSIS
-        Create a new site in SentinelOne in the specified site. Currently requires specifying an existing site to use as the template for the new site's policy.
+        Create a new site in SentinelOne. Currently requires specifying an existing site to use as the template for the new site's policy.
     
     .PARAMETER NewSiteName
         The name of the new site to be created
